@@ -5,6 +5,7 @@
 
 /**
  * main - program that generates random valid
+ * passwords for the program 101-crackme
  * Return: Always 0 (success)
  */
 int main(void)
@@ -14,7 +15,7 @@ int main(void)
 
 	sum = 0;
 
-	srnd(time(NULL));
+	srand(time(NULL));
 
 	for (i = 0; i < 100; i++)
 	{
